@@ -44,7 +44,8 @@ error_exit($mysqli, $error_msg);
 // ###################################################
 // ####### TODO: please enter own credentials ########
 // ###################################################
-$mysqli = new mysqli('localhost', 'id14245482_admin', 'Password@123', 'id14245482_nliapf');
+//$mysqli = new mysqli('localhost', 'id14245482_admin', 'Password@123', 'id14245482_nliapf');
+$mysqli = new mysqli('us-cdbr-east-02.cleardb.com', 'b7cdee49062602', '1783bca7', 'heroku_f73205fd5965593');
 if ($mysqli->connect_error)
 error_exit($mysqli, "unable to connect to database");
 // format timestamp to be compatible with MySQL TIMESTAMP
